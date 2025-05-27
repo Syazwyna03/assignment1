@@ -1,38 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Inspiration & Resources</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Inspiration & Resources</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="steps.html">Step by Step Guide</a>
-      <a href="inspiration.html">Inspiration & Resources</a>
-    </nav>
-  </header>
-  <main>
-    <h2>My Legal Role Models</h2>
-    <table border="1">
-      <tr>
-        <th>Name</th>
-        <th>Contribution</th>
-        <th>Link</th>
-      </tr>
-      <tr>
-        <td>Tun Laila</td>
-        <td>Trailblazing female legal figure in Malaysia</td>
-        <td><a href="https://www.example.com/tun-laila" target="_blank">Read more</a></td>
-      </tr>
-      <tr>
-        <td>Dato Ahmad Zaharil</td>
-        <td>Prominent criminal lawyer known for landmark cases</td>
-        <td><a href="https://www.example.com/ahmad-zaharil" target="_blank">Read more</a></td>
-      </tr>
-    </table>
-  </main>
-</body>
-</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fef9f3; /* Cream */
+  color: #3e1f0d; /* Rich brown */
+}
+
+header {
+  background-color: #5c1e21; /* Dark maroon */
+  color: #fef9f3;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fef9f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #5c1e21;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff6e6;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #3e1f0d;
+}
+
+a {
+  color: #5c1e21;
+}
