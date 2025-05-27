@@ -1,53 +1,94 @@
+/* Style for overall page background and fonts */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 20px;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0; /* Cream background */
+    color: #4B000F; /* Dark Maroon */
 }
 
-h1 {
-  color: #004080;
+/* Header styling */
+header {
+    background-color: #4B000F; /* Dark Maroon */
+    padding: 20px;
+    text-align: center;
+    color: #fff8f0; /* Cream text */
 }
 
-h2 {
-  color: #0066cc;
+header h1 {
+    margin: 0;
+    font-size: 24px;
 }
 
-p, ol, table {
-  margin-top: 20px;
+nav {
+    margin-top: 10px;
 }
 
-img {
-  margin-top: 15px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
+nav a {
+    color: #f4d35e; /* Rich brown for links */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-  margin-right: 10px;
+nav a:hover {
+    text-decoration: underline;
 }
 
-a:hover {
-  text-decoration: underline;
+/* Sections styling */
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
+.intro h2, .content h2, .inspirations h2 {
+    color: #4B000F; /* Dark Maroon */
+}
+
+.career-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #4B000F;
+}
+
+/* Table styling */
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
 }
 
-table th, table td {
-  padding: 10px;
-  text-align: left;
+table, th, td {
+    border: 1px solid #4B000F;
 }
 
-table th {
-  background-color: #cce0ff;
+th, td {
+    padding: 10px;
+    text-align: left;
 }
 
-table td {
-  background-color: #eaf0ff;
+th {
+    background-color: #f4d35e; /* Rich brown */
+    color: #fff8f0; /* Cream text */
+}
+
+/* Footer styling */
+footer {
+    background-color: #4B000F;
+    color: #fff8f0;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media(max-width: 600px){
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
 }
