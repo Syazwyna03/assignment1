@@ -1,42 +1,76 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fef9f3; /* Cream */
-  color: #3e1f0d; /* Rich brown */
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: #5c1e21; /* Dark maroon */
-  color: #fef9f3;
+  background-color: #004d40;
   padding: 20px;
   text-align: center;
+  color: white;
 }
 
 nav a {
-  margin: 0 10px;
-  color: #fef9f3;
+  margin: 0 15px;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-main {
-  padding: 20px;
-}
-
-h1, h2 {
-  color: #3e1f0d; 
-
-table {
+.main-img {
   width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+.homepage section {
+  background-color: #002b23;
+  color: #a8e6cf;
+  text-align: center;
+  padding: 40px;
+}
+
+.guidepage section {
+  background: linear-gradient(to bottom right, #673ab7, #512da8);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.guidepage ol {
+  text-align: left;
+  display: inline-block;
+  text-align: left;
+}
+
+.inspirationpage section {
+  background-color: #fff8e1;
+  color: #4e0d0d;
+  padding: 40px;
+  text-align: center;
+}
+
+.inspirationpage table {
+  margin: auto;
   border-collapse: collapse;
-  background-color: #fff6e6;
+  width: 80%;
 }
 
-table th, table td {
+.inspirationpage th, td {
+  border: 1px solid #4e0d0d;
   padding: 10px;
-  border: 1px solid #3e1f0d;
 }
 
-a {
-  color: #5c1e21;
+.inspirationpage th {
+  background-color: #6a1b1a;
+  color: white;
 }
+
+.inspirationpage a {
+  color: #6a1b1a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
